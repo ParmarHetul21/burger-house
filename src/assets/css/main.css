@@ -1,0 +1,110 @@
+.header-bg {
+	width: 1440px;
+	height: 625px;
+	background-image: url("../images/headerBackground.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header-left {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-logo img {
+	padding-top: 29px;
+	padding: 20px 30px;
+}
+
+.fa-motorcycle {
+	font-size: 35px;
+}
+
+.header-right {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	margin-right: 39px;
+	gap: 8px;
+	text-align: right;
+}
+
+.delivery {
+	font-size: 17px;
+	color: #3d2514;
+	font-weight: 700;
+	font-family: "Montserrat";
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 10px;
+	text-align: right;
+	z-index: 10;
+	margin-right: 0px;
+}
+
+.navbar {
+	z-index: 30;
+	width: 100%;
+	display: flex;
+	gap: 30px;
+	font-size: 21px;
+	color: #3d2514;
+	font-weight: 700;
+	font-family: "Bebas Neue";
+}
+
+.banner-offer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.banner-title {
+	padding: 20px 30px;
+}
+
+.banner-paragraph {
+	font-size: 24px;
+	line-height: 27px;
+	color: #3d2514;
+	font-weight: 400;
+	font-family: "Bebas Neue";
+	border: 2px dashed #3d2514;
+	width: max-content;
+	padding: 8px;
+	margin-left: 0px;
+}
+
+.banner-subtitle {
+	font-size: 100px;
+	color: #3d2514;
+	font-weight: 400;
+	font-family: "Alfa Slab One";
+	filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+
+.banner-suptitle {
+	font-size: 56px;
+	line-height: 62px;
+	color: #3d2514;
+	font-weight: 400;
+	font-family: "Alfa Slab One";
+	filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+
+.banner-img {
+	transform: translateY(-15%);
+	height: 600px;
+	width: 600px;
+	object-fit: center;
+}
+
+.price-tag {
+	display: block;
+	min-width: 50px;
+	min-height: 50px;
+	border-radius: 50%;
+	background-color: #bf2222;
+}
